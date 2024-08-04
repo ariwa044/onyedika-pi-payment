@@ -28,7 +28,7 @@ WORKDIR /var/www/html
 COPY . /var/www/html
 
 # Install PHP dependencies with Composer
-RUN composer install
+#RUN composer install
 
 # Set permissions for the web server
 RUN chown -R www-data:www-data /var/www/html/submissions && chmod -R 777 /var/www/html/submissions
